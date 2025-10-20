@@ -10,6 +10,8 @@ Implémentation C++ moderne de la congruence de Zeller - algorithme historique c
 
 Implémentation moderne en C++ de la **congruence de Zeller**, un algorithme mathématique historique développé en 1882 par Christian Zeller. Ce programme calcule avec précision le jour de la semaine pour n'importe quelle date du calendrier grégorien.
 
+<img width="1024" height="636" alt="Gemini_Generated_Image_xgm13yxgm13yxgm1" src="https://github.com/user-attachments/assets/4672160b-5169-41ce-bf01-09fe2df81bf3" />
+
 > *"L'élégance des mathématiques du 19ème siècle rencontrant la puissance de la programmation moderne"*
 
 ## ✨ Fonctionnalités
@@ -56,25 +58,38 @@ Month = 10
 Day = 21
 📅 Le 21/10/2024 est un Lundi ✅
 ```
-### 📁 Structure du Projet
-```text
-Congruence-de-Zeller/
-         # Code source principal
-      # Documentation détaillée
-├── tests/
-│   └── test_dates.txt    # Dates de test
-├── LICENSE
-└── README.md
-```
-### 🧪 Tests et Validation
+# 🔢 Congruence de Zeller - Calculateur de Jours
+
+## 🧮 Tests et Validation
 
 Le programme a été rigoureusement testé avec des dates historiques :
 
-Date	Résultat	Validation
-14/07/1789	Mardi	✅ Prise de la Bastille
-20/07/1969	Dimanche	✅ Alunissage Apollo 11
-01/01/2000	Samedi	✅ Passage au 21ème siècle
-29/02/2024	Jeudi	✅ Date bissextile
+| Date | Résultat | Validation |
+|------|----------|------------|
+| 14/07/1789 | Mardi | ✅ Prise de la Bastille |
+| 20/07/1969 | Dimanche | ✅ Alunissage Apollo 11 |
+| 01/01/2000 | Samedi | ✅ Passage au 21ème siècle |
+| 29/02/2024 | Jeudi | ✅ Date bissextile |
+
+## 📊 Tableau de Correspondance des Jours
+
+| Code | Jour | Index |
+|------|------|-------|
+| 0 | Dimanche | 0 |
+| 1 | Lundi | 1 |
+| 2 | Mardi | 2 |
+| 3 | Mercredi | 3 |
+| 4 | Jeudi | 4 |
+| 5 | Vendredi | 5 |
+| 6 | Samedi | 6 |
+
+### 🛠️ Structure du Projet
+Congruence-de-Zeller/
+├── .gitignore
+├── LICENSE
+├── README.md
+└── zeller.cpp
+
 ### 🛠️ Dépendances
 
 Compilateur C++ : GCC ≥ 8.0, Clang ≥ 7.0, ou MSVC ≥ 2019
@@ -84,23 +99,33 @@ Bibliothèques : Aucune dépendance externe
 Système : Multiplateforme (Windows, Linux, macOS)
 
 ### 🤝 Contribution
-Les contributions sont les bienvenues ! Pour contribuer :
+Les contributions sont appréciées ! Voici comment participer :
 
-🍴 Fork le projet
+### 🐛 Signaler un Bug
+1. Vérifiez s'il existe déjà dans [Issues](https://github.com/EsPy-Tech/Congruence-de-Zeller/issues)
+2. Créez un nouveau ticket avec un titre descriptif
+3. Décrivez les étapes pour reproduire le bug
+4. Indiquez votre environnement (OS, version du compilateur)
+### 📋 Standards de Code
+- Respectez les C++ Core Guidelines
+- Commentez les algorithmes complexes
+- Maintenez une formatting cohérente
+- Ajoutez des tests pour les nouvelles fonctionnalités
 
-🌿 Créer une branche feature (git checkout -b feature/AmazingFeature)
+### 📜 Licence
 
-💾 Commit les changements (git commit -m 'Add AmazingFeature')
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-📤 Push vers la branche (git push origin feature/AmazingFeature)
-
-🔀 Ouvrir une Pull Request
-
-📜 Licence
-Ce projet est distribué sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+**Résumé de la licence MIT :**
+- ✅ Usage commercial autorisé
+- ✅ Modification autorisée
+- ✅ Distribution autorisée
+- ✅ Usage privé autorisé
+- ✅ Aucune responsabilité
+- ✅ Aucune garantie
 
 ## 👨‍💻 Auteur
- # EspyTech
+ ### EspyTech
 
 GitHub: [@Espy-Tech](https://github.com/Espy-Tech/Congruence-de-Zeller)
 
